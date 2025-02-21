@@ -1,0 +1,32 @@
+/* Full Page Layout */
+.layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Sidebar Styling */
+  .sidebar-container {
+    background-color: #f8f9fa; /* Light Grey */
+    height: 100vh;
+    padding: 0;
+    overflow-y: auto;
+  }
+  
+  /* Main Content Styling */
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* Centered Text */
+  .full-screen-text h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+  }
+  
